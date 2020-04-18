@@ -10,13 +10,27 @@
 }
 
 html {
-	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
 	color: var(--font-color);
 }
 
 .hero {
 	background-color: var(--bg-color);
+}
+
+.hero__title {
+	margin: 0;
+}
+
+.hero__description {
+	margin: 0;
+}
+
+.hero__button {
+	border: none;
+	border-radius: 2rem;
+	background-color: var(--font-color);
+	color: var(--bg-color);
 }
 
 .footer {
